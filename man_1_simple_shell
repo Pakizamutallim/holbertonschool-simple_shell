@@ -1,0 +1,54 @@
+.TH man 1 "May 04, 2024"
+.LO 1
+.SH NAME
+man - simple_shell - a basic UNIX command line interpreter
+
+.SH SYNOPSIS
+.B man
+.RB simple_shell [COMMAND] [OPTION] [ARGUMENT]
+
+.SH DESCRIPTION
+.B man
+simple_shell is a basic UNIX command line interpreter designed for executing simple commands. It prompts the user for input and executes commands one at a time. The shell supports a limited set of features and is intended for basic command execution tasks.
+
+.SH FEATURES
+* Simple_shell presents a prompt to the user, awaiting input for command execution. Each command line concludes with a newline character.* After executing a command, simple_shell consistently reappears, displaying the prompt anew for further commands.
+* Command lines within simple_shell are straightforward, devoid of semicolons, pipes, or redirections, focusing solely on single-word commands.
+* Simple_shell accommodates single-word commands exclusively, devoid of any arguments passed to programs.
+* In the event of an executable not being found, simple_shell promptly prints an error message and resumes displaying the prompt for subsequent commands.
+* Simple_shell is equipped to handle the "end of file" condition (triggered by Ctrl+D), ensuring graceful termination of the shell when encountered.
+
+.SH OVERVIEW
+.B simple_shell
+is a basic UNIX command-line interpreter designed for executing simple commands. It provides users with a textual interface to interact with the operating system, allowing them to execute commands, run scripts, and manage system resources through a command-line interface. While simple_shell supports a limited set of features and command structures, it offers a straightforward and intuitive interface for users to perform basic command execution tasks.
+
+.SH INVOCATION
+.B simple_shell
+is a basic UNIX command-line interpreter. To use it, type
+.B simple_shell
+in your terminal and press Enter. The shell prompts for single-word commands without special characters or arguments. It displays an error if a command is not found and handles Ctrl+D to exit gracefully. Built-in commands and special characters are not supported.
+
+.SH LIBRARIES
+.IP stdio.h
+.IP errno.h
+.IP stdlib.h
+.IP string.h
+.IP unistd.h
+.IP sys/wait.h
+.IP fcntl.h
+
+.SH EXIT PROCESS
+The
+.B simple_shell
+exits the current process and deallocates any memory allocated during execution.
+
+.SH BUGS
+Report any bugs or issues to the developers at the provided email addresses.
+
+.SH AUTHORS
+The
+.B simple_shell
+was developed by [Laman Nazirli] - (<lemannazirli8@gmail.com>)
+and
+[Pakiza Mutallimova] - (<pakizemutellimova97@gmail.com>).
+
