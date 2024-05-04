@@ -22,6 +22,8 @@ int main(void)
 			exit(0);
 		}
 		status = path_handler(buffer);
+		if (status == 2)
+			exit(2);
 	}
 	return (status);
 }
