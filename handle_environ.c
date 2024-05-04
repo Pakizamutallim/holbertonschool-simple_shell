@@ -1,10 +1,12 @@
 #include "main.h"
-
+#include <stddef.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 /**
- * handle_env - handle the first argv element
- * @buffer: a pointer
+ * handle_env - handle the first argv element was a env
+ * @buffer: buffer (input from shell)
  *
- * Return: void
+ * Return: status
  */
 void handle_env(char *buffer)
 {
