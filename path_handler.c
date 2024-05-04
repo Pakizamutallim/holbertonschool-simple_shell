@@ -1,10 +1,13 @@
 #include "main.h"
-
+#include <stddef.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 /**
- * path_handler - a function for handling path
- * @buffer: a pointer
+ * path_handler - path handler
+ * @buffer: buffer (input from shell)
+ *
+ * Return: status
  */
-
 int path_handler(char *buffer)
 {
 	int status = 0;
