@@ -45,6 +45,7 @@ exits the current process and deallocates any memory allocated during execution.
 .SH BUGS
 Report any bugs or issues to the developers at the provided email addresses.
 
+
 .SH AUTHORS
 The
 .B simple_shell
