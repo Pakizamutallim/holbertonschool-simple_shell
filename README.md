@@ -7,7 +7,7 @@ The project involved writing a simple shell in C using a limited number of stand
 The goal of this project was to help us understand how the shell works.
 A shell, in the context of computing, is a command-line interpreter that provides users with a textual interface to interact with the operating system. It allows users to execute commands, run scripts, and manage system resources through a command-line interface.
 
-**Typically, a shell provides the following functionalities:**<br>
+* ###**Typically, a shell provides the following functionalities:**<br>
 1.Command Execution: ***Runs commands entered by users, ranging from basic file operations to running programs.***<br>
 2.Command Parsing: ***Analyzes commands to identify the command name and its arguments, handling special characters like redirections and pipes.***<br>
 3.I/O Redirection: ***Allows users to redirect input and output streams, like saving command output to a file.***<br>
@@ -19,12 +19,12 @@ A shell, in the context of computing, is a command-line interpreter that provide
 
 ## Usage
 
-#### **Interactive Mode**
+* ### **Interactive Mode**
 $ ./shell <br>
 $ /bin/ls <br>
 $ exit <br>
 
-#### **Non-interactive Mode**
+* ### **Non-interactive Mode**
 $ echo "/bin/ls" | ./shell <br>
 $ cat test_file <br>
 $ cat test_file | ./shell <br>
@@ -32,11 +32,11 @@ $ cat test_file | ./shell <br>
 
 ## Installation/Compilation
 
-1.`Clone the repository:` <br>
+`1. Clone the repository:` <br>
 git clone [https://github.com/Pakizamutallim/holbertonschool-simple_shell.git](https://github.com/Pakizamutallim/holbertonschool-simple_shell.git) <br>
-2. `Compile the source code:` <br>
+`2. Compile the source code:` <br>
 gcc shell.c -o shell <br>
-3. `Run the shell:` <br>
+`3. Run the shell:` <br>
 ./shell
 
 
