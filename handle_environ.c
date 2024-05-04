@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * handle_env - handle the first argv element 
+ * handle_env - handle the first argv element
  * @buffer: a pointer
  *
  * Return: void
