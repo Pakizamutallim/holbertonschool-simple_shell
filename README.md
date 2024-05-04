@@ -37,7 +37,7 @@ git clone [https://github.com/Pakizamutallim/holbertonschool-simple_shell.git](h
 `2. Compile the source code:` <br>
 gcc shell.c -o shell <br>
 `3. Run the shell:` <br>
-./shell
+./shell <br>
 
 
 ## Requirements
