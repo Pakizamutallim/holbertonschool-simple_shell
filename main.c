@@ -1,0 +1,27 @@
+#include "main.h"
+
+
+/**
+ * main - main func
+ *
+ * Return: int
+ */
+int main(void)
+{
+	char *buffer = NULL;
+	int status = 0;
+
+	while (1)
+	{
+		buffer = _getline();
+		if (buffer == NULL)
+			break;
+		if (strcmp(buffer, "exit") == 0)
+		{
+			free(buffer);
+			exit(0);
+		}
+		status = path_handler(buffer);
+	}
+	return (status);
+}
