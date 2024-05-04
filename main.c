@@ -13,7 +13,7 @@ int main(void)
 
 	while (1)
 	{
-		buffer = _getline();
+		buffer = get_input();
 		if (buffer == NULL)
 			break;
 		if (strcmp(buffer, "exit") == 0)
