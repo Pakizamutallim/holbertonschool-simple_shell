@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
  * main - main func
  *
@@ -23,7 +21,9 @@ int main(void)
 		}
 		status = path_handler(buffer);
 		if (status == 2)
+		{
 			exit(2);
+		}
 	}
 	return (status);
 }
