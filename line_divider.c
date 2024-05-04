@@ -1,23 +1,36 @@
 #include "main.h"
+#include <stddef.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#define CHAR_BUFFER 1024
 /**
- * line_devider - devide the line
- * @buffer: pointer
- * @arr: it is array
+ * handle_path - path handler
+ * @buffer: buffer (input from shell)
+ * @argv: arguments array
  *
- * Return: array
+ * Return: status
  */
-char **line_devider(char *buffer, char **arr)
+void handle_path(char *buffer, char **argv)
 {
+	char *path = getenv("PATH");
 	char *token;
-	int i = 0;
 
-	token = strtok(buffer, " \n\t");
-
-	while (token != NULL && i < 63)
+	if (path == NULL)
 	{
-		arr[i++] = token;
-		token = strtok(NULL, " \n\t");
+		fprintf(stderr, "./hsh: 1: %s: not found\n", argv[0]);
+		free(buffer);
+		exit(127);
 	}
-	arr[i++] = NULL;
-	return (arr);
+	token = strtok(path, ":");
+	while (token != NULL)
+	{
+		char error_message[CHAR_BUFFER];
+
+		snprintf(error_message, sizeof(error_message), "%s/%s", token, argv[0]);
+		if (access(error_message, X_OK) == 0)
+		{
+			execute_command(error_message, argv);
+		}
+		token = strtok(NULL, ":");
+	}
 }

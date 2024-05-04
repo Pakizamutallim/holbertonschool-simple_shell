@@ -1,15 +1,15 @@
 #include "main.h"
-
-
-
+#include <stddef.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#define CHAR_BUFFER 1024
 /**
- * handle_path - a function that handlerv path
- * @buffer: a pointer
- * @argv: argument
+ * handle_path - path handler
+ * @buffer: buffer (input from shell)
+ * @argv: arguments array
  *
- * Return: array
+ * Return: status
  */
-
 void handle_path(char *buffer, char **argv)
 {
 	char *path = getenv("PATH");
