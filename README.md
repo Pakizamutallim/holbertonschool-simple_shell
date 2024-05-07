@@ -35,9 +35,9 @@ $ cat test_file | ./shell <br>
 1. Clone the repository: <br>
 git clone [https://github.com/Pakizamutallim/holbertonschool-simple_shell.git](https://github.com/Pakizamutallim/holbertonschool-simple_shell.git) <br>
 2. Compile the source code: <br>
-gcc shell.c -o shell <br>
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 3. Run the shell: <br>
-./shell <br>
+./hsh
 
 
 ## Requirements
