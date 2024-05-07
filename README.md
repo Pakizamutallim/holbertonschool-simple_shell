@@ -53,6 +53,12 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh <br>
  
  ![bash screenshot](./bash.png)
 
+
+ ![bash screenshot](./lsl.png)
+ 
+ 
+ ![bash screenshot](./mkdir.png)
+
 ## Requirements
 
 To compile and run the shell, you need:
