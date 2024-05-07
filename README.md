@@ -47,7 +47,7 @@ path_handler | My own handle_path function
 `1. Clone the repository:` <br>
 git clone [https://github.com/Pakizamutallim/holbertonschool-simple_shell.git](https://github.com/Pakizamutallim/holbertonschool-simple_shell.git) <br>
 `2. Compile the source code:` <br>
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh <br>
 `3. Run the shell:` <br>
 ./hsh
  
