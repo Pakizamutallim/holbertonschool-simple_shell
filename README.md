@@ -32,7 +32,7 @@ $ cat test_file | ./shell <br>
 
 ### *All function descriptions*
 
-Functions | Description
+Function | Description
  ------------ | ------------- 
 execute_command | Executes the path or commands 
 *get_input | My own getline function
@@ -61,3 +61,10 @@ To compile and run the shell, you need:
 > *Operating System:* The shell is designed for Unix-like operating systems. It may work on other systems with minor modifications, but it's primarily intended for Unix-based environments. <br>
 
 **That's all you need to get started with compiling and running the shell!**
+
+## Examples
+
+#### The following examples demonstrate various usage scenarios for the simple shell. They showcase different commands and interactions with the shell environment.
+
+
+
