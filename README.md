@@ -51,13 +51,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh <br>
 `3. Run the shell:` <br>
 ./hsh
  
- ![bash screenshot](./bash.png)
-
-
- ![bash screenshot](./lsl.png)
- 
- 
- ![bash screenshot](./mkdir.png)
 
 ## Requirements
 
@@ -72,5 +65,11 @@ To compile and run the shell, you need:
 
 #### The following examples demonstrate various usage scenarios for the simple shell. They showcase different commands and interactions with the shell environment.
 
+ !Äbash screenshotÅ(./bash.png)
 
+
+ !Äbash screenshotÅ(./lsl.png)
+ 
+ 
+ !Äbash screenshotÅ(./mkdir.png)
 
