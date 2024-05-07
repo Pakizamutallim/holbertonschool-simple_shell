@@ -30,6 +30,18 @@ $ cat test_file <br>
 $ cat test_file | ./shell <br>
 
 
+### *All function descriptions*
+
+Functions | Description
+ ------------ | ------------- 
+execute_command | Executes the path or commands 
+*get_input | My own getline function
+handle_env | Handle the first argv element was a env
+handle_path | Designed to handle finding and executing commands within the shell environment
+*line_devider | Parse a user-provided input string (buffer) into an array of arguments.
+path_handler | My own handle_path function
+
+
 ## Installation/Compilation
 
 1. Clone the repository: <br>
