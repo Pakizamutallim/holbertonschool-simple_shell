@@ -1,11 +1,13 @@
 #include "main.h"
-
+#include <stddef.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 /**
- * execute_command - execute the path
- * @buffer: it is a buffer
- * @argv: arguments
+ * execute_command - execute the path or command that given
+ * @buffer: buffer (input from shell)
+ * @argv: arguments array
  *
- * Return: void
+ * Return: status
  */
 void execute_command(char *buffer, char **argv)
 {
