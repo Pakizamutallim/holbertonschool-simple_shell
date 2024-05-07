@@ -38,7 +38,8 @@ git clone [https://github.com/Pakizamutallim/holbertonschool-simple_shell.git](h
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 3. Run the shell: <br>
 ./hsh
-
+ 
+ ![bash screenshot](./bash.png)
 
 ## Requirements
 
