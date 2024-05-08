@@ -73,3 +73,16 @@ To compile and run the shell, you need:
  
  ![bash screenshot](./mkdir.png)
 
+
+## Contributors
+
+For questions or feedback, please feel free to reach the authors via the contact information provided:
+`*Pakiza Mutallimova`
+Email - pakizemutellimova97@gmail.com
+Github - @Pakizamutallim
+
+`*Laman Nazirli`
+Email - lemannazirli8@gmail.com
+Github - @llammann
+
+
