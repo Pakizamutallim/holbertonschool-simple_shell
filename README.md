@@ -65,13 +65,22 @@ To compile and run the shell, you need:
 
 #### The following examples demonstrate various usage scenarios for the simple shell. They showcase different commands and interactions with the shell environment.
 
- ![bash screenshot](./bash.png)
+**Example 1: Listing files using ls**
 
+ ![bash screenshot](./bash.png)
+This image shows the output of the `ls` command, which lists the files and directories in the current working directory.
+
+
+**Example 3: Displaying file contents using `cat`**
 
  ![bash screenshot](./lsl.png)
+This image shows the output of the `cat` command, which displays the contents of the file named "test_file.txt".
  
+
+**Example 2: Creating a directory using `mkdir`**
  
  ![bash screenshot](./mkdir.png)
+This image demonstrates the use of the `mkdir` command to create a new directory named "new_directory" in the current working directory.
 
 
 ## Contributors
@@ -79,11 +88,11 @@ To compile and run the shell, you need:
 *For questions or feedback, please feel free to reach the authors via the contact information provided:* <br>
 
 `Pakiza Mutallimova` <br>
-*Email - pakizemutellimova97@gmail.com <br>
-*Github - @Pakizamutallim <br>
+* Email - pakizemutellimova97@gmail.com <br>
+* Github - @Pakizamutallim <br>
 
 `Laman Nazirli` <br>
-*Email - lemannazirli8@gmail.com <br>
-*Github - @llammann <br>
+* Email - lemannazirli8@gmail.com <br>
+* Github - @llammann <br>
 
 
