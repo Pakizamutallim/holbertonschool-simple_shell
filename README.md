@@ -76,13 +76,14 @@ To compile and run the shell, you need:
 
 ## Contributors
 
-For questions or feedback, please feel free to reach the authors via the contact information provided: <br>
-`*Pakiza Mutallimova` <br>
-Email - pakizemutellimova97@gmail.com <br>
-Github - @Pakizamutallim <br>
+*For questions or feedback, please feel free to reach the authors via the contact information provided:* <br>
 
-`*Laman Nazirli` <br>
-Email - lemannazirli8@gmail.com <br>
-Github - @llammann <br>
+`Pakiza Mutallimova` <br>
+*Email - pakizemutellimova97@gmail.com <br>
+*Github - @Pakizamutallim <br>
+
+`Laman Nazirli` <br>
+*Email - lemannazirli8@gmail.com <br>
+*Github - @llammann <br>
 
 
