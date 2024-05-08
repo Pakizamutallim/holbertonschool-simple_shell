@@ -65,11 +65,11 @@ To compile and run the shell, you need:
 
 #### The following examples demonstrate various usage scenarios for the simple shell. They showcase different commands and interactions with the shell environment.
 
- !Äbash screenshotÅ(./bash.png)
+ ![bash screenshot](./bash.png)
 
 
- !Äbash screenshotÅ(./lsl.png)
+ ![bash screenshot](./lsl.png)
  
  
- !Äbash screenshotÅ(./mkdir.png)
+ ![bash screenshot](./mkdir.png)
 
