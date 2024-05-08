@@ -76,7 +76,7 @@ To compile and run the shell, you need:
 
 ## Contributors
 
-For questions or feedback, please feel free to reach the authors via the contact information provided:
+For questions or feedback, please feel free to reach the authors via the contact information provided: <br>
 `*Pakiza Mutallimova`
 Email - pakizemutellimova97@gmail.com
 Github - @Pakizamutallim
